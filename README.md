@@ -7,4 +7,5 @@
 * Rainha Octávio
 * Shin Jiyeon
 
+[Link to GitHub project folder](https://github.com/ElsayedYousef/Digital-Eletronics-Project)
   
