@@ -1,6 +1,6 @@
 # Relay-Controlled Sound Synthesizer
 
-##Team members
+## Team members
 
 * Yousef Elsayed
 * Thant Myat Mon
