@@ -15,5 +15,7 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 ![Relay Image](Images/Relay.JPG)
 ![Relay Circuit](Images/relay-circuit.JPG)
 
+## Video
 
+## Conclusion
   
