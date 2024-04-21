@@ -2,7 +2,7 @@
 
 ## Team members
 
-* Yousef Elsayed
+* Elsayed Yousef
 * Thant Myat Mon
 * Rainha Octávio
 * Shin Jiyeon
