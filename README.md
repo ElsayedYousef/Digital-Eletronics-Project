@@ -32,6 +32,35 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 #### File for mmusic:
 
 [song file](Source%20files/musics_file.vhd)
+
+#### File for clock counter:
+
+[Clock counter](Source%20files/Counter_music.vhd)
+
+#### File for Leds:
+
+[leds](Source%20files/leds.vhd)
+
+#### File for Seven segment:
+
+[Seven segment](Source%20files/SevenSeg.vhd)
+
+#### File for top level:
+
+[top level](Source%20files/Top_level.vhd)
+
+#### File for constraints:
+
+[constraints](Source%20files/nexys-a7-50t.xdc)
+
+#### File for play-pause:
+
+[play-pause](Source%20files/Play_pause.vhd)
+
+#### File for Song navigator:
+
+[song navigator](Source%20files/song_navigator.vhd)
+
 ## Components simulation 
 ### Testbench
 ### Simulation output
