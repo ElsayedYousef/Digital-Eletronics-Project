@@ -21,10 +21,10 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 
 ## Software description
 ### Schematic
-####Play-Pause FSM
+#### Play-Pause FSM
 ![play_pause Image](Images/play_pause1.JPG)
 ![play_pause2 Image](Images/play_pause2.JPG)
-####Song navigation FSM
+#### Song navigation FSM
 ![song_navigation1 Image](Images/song_navigation1.jpg)
 ![song_navigation2 Image](Images/song_navigation2.jpg)
 
