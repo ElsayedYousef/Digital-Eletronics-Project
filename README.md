@@ -29,8 +29,9 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 ![song_navigation2 Image](Images/song_navigation2.jpg)
 
 ### Design Module code
+#### File for mmusic:
 
-
+[song file](Source files/music_file.vhd)
 ## Components simulation 
 ### Testbench
 ### Simulation output
