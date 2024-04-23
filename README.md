@@ -39,7 +39,7 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 
 #### File for Leds:
 
-[leds](Source%20files/leds.vhd)
+[leds](Source%20files/Leds.vhd)
 
 #### File for Seven segment:
 
