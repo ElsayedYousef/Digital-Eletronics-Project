@@ -75,4 +75,5 @@ This code serves as the core component of our project, responsible for controlli
 [music_files](Source%20files/tb_musics_file.vhd)
 ![music_files](Images/tb_musics_file_simulation.png)
 
-
+#### Song_nevigator test bench files
+![Tb_song_nevigator](Image/Tb_song_nevigator.png)
