@@ -49,13 +49,13 @@ begin
 
             -- Control play/stop LEDs
             if play = '1' then
-                LEDs(16) <= '1'; -- Turn on LED24 when playing
+                LEDs(16) <= '1'; -- Turn on LED16 when playing
             else
                 LEDs(16) <= '0';
             end if;
 
             if stop = '1' then
-                LEDs(17) <= '1'; -- Turn on LED23 when stopped
+                LEDs(17) <= '1'; -- Turn on LED17 when stopped
             else
                 LEDs(17) <= '0';
             end if;
