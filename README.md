@@ -55,7 +55,7 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 
 #### File for play-pause:
 
-[play-pause](Source%20files/Play_pause.vhd)
+[play-pause](Source%20files/play_pause.vhd)
 
 #### File for Song navigator:
 
