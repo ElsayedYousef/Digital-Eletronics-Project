@@ -30,7 +30,7 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 
 ### Design Module code
 #### File for music:
-File containing a counter to set the lenght of the music with fours different music patterns based on the step sequencer.
+File containing a counter to set the lenght of the music with four different music patterns based on the step sequencer.
 
 [song file](Source%20files/musics_file.vhd)
 
