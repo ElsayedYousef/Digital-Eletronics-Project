@@ -73,7 +73,7 @@ begin
 					-- Counting
 					elsif (music_enable = '1') then				
 					
-							if (relay_count < (STEPS -1)) then
+							if (relay_count < (STEPS -1) and en_out = '1') then
 								relay_count <= relay_count + 1;          -- Increment local counter
 							-- End of counter reached
 							else
