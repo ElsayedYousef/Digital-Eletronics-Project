@@ -84,9 +84,7 @@ begin
 		  wait for 20 ns;
 		  music_enable <= '1';
 		  
-        --wait for 100 ns;
-		  --music_enable <= '1';
-		  
+       		  
 		  
 		  music_select <= "01";
 		  
