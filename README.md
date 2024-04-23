@@ -76,4 +76,4 @@ This code serves as the core component of our project, responsible for controlli
 ![music_files](Images/tb_musics_file_simulation.png)
 
 #### Song_nevigator test bench files
-![Tb_song_nevigator](Image/Tb_song_nevigator.PNG)
+![Tb_song_nevigator](Images/Tb_song_nevigator.PNG)
