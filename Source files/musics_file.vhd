@@ -25,8 +25,8 @@ entity musics_file is
 		  relay_first  	: out   std_logic;
 		  relay_second 	: out   std_logic;
 		  relay_third 		: out   std_logic;
-		  relay_fourth 	: out   std_logic;
---		  change_test		: out   std_logic  -- only for testing
+		  relay_fourth 	: out   std_logic
+
 		  
  	);
 end musics_file;
@@ -36,7 +36,7 @@ architecture Behavioral of musics_file is
 signal relay_count  : integer range 0 to (STEPS -1);
 signal previous_music_select : std_logic_vector(1 downto 0);
 
---- commented only for testing
+
 signal change			: std_logic;
 
 
@@ -56,8 +56,7 @@ begin
 	
 	--Saving if it  changes
 	change <= '1' when previous_music_select /= music_select else '0';
----- for testing
-	change_test <= change;
+
 
 
 
@@ -110,7 +109,7 @@ begin
 							when 40  => relay_first <= '1';
 							when 42 => relay_second <= '1';
 							when 46 => relay_third <= '1';							
-							when others =>  relay_first <= '0';
+							when others =>  relay_first <= '0';  relay_second <= '0';  relay_third <= '0';  relay_fourth <= '0';
 						end case;
 						
 					when "01" =>
@@ -128,7 +127,7 @@ begin
 							when 33 => relay_second <= '1';
 							when 40 => relay_third <= '1';
 							when 44 => relay_fourth <= '1';
-							when others =>  relay_second <= '0';
+							when others =>  relay_first <= '0';  relay_second <= '0';  relay_third <= '0';  relay_fourth <= '0';
 						end case;
 						
 						
@@ -147,7 +146,7 @@ begin
 							when 37 => relay_second <= '1';
 							when 38 => relay_third <= '1';
 							when 44 => relay_fourth <= '1';
-							when others =>  relay_second <= '0';
+							when others =>  relay_first <= '0';  relay_second <= '0';  relay_third <= '0';  relay_fourth <= '0';
 						end case;
 						
 						
@@ -164,11 +163,11 @@ begin
 							when 36 => relay_fourth <= '1';
 							when 40 => relay_first <= '1';
 							when 46 => relay_second <= '1';							
-							when others =>  relay_second <= '0';
+							when others =>  relay_first <= '0';  relay_second <= '0';  relay_third <= '0';  relay_fourth <= '0';
 						end case;
 				
 						--cannot change rekay_count because conflict of signals 
-				   when others =>  relay_second <= '0'; 
+				   when others =>  relay_first <= '0';  relay_second <= '0';  relay_third <= '0';  relay_fourth <= '0'; 
 			end case;
 		end process;	
 
