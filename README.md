@@ -63,5 +63,13 @@ Project goal is to implement a sound synthesizer utilizing relays on the Nexys A
 
 ## Components simulation 
 ### Testbench
-### Simulation output
+
+#### Main counter Testbench files
+[music_counter](Source%20files/tb_counter_music.vhd)
+![music_counter Image](Images/tb_counter_music_simulation.png)
+
+#### Music pattern  Testbench files
+[music_files](Source%20files/tb_musics_file.vhd)
+![music_files](Images/tb_musics_file_simulation.png)
+
 
