@@ -48,6 +48,7 @@ Main counter of the project to set a suitable clock.
 [Seven segment](Source%20files/SevenSeg.vhd)
 
 #### File for top level:
+This code serves as the core component of our project, responsible for controlling and integrating the entire system.
 
 [top level](Source%20files/Top_level.vhd)
 
