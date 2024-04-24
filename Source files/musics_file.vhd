@@ -22,6 +22,7 @@ entity musics_file is
 		  music_enable   	: in    std_logic; -- Allowing music counter
 		  rst					: in 	  std_logic;
 		  music_select		: in 	  std_logic_vector(1 downto 0);
+		  en_out                : in std_logic;
 		  relay_first  	: out   std_logic;
 		  relay_second 	: out   std_logic;
 		  relay_third 		: out   std_logic;
